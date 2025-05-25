@@ -1,0 +1,15 @@
+{
+  "main": "index.js",
+  "scripts": {
+    "build": "tsdown",
+    "fix": "biome check --fix",
+    "check": "biome check"
+  },
+  "type": "module",
+  "packageManager": "pnpm@10.6.4",
+  "devDependencies": {
+    "@biomejs/biome": "2.0.0-beta.5",
+    "tsdown": "^0.12.3",
+    "typescript": "^5.8.3"
+  }
+}
