@@ -7,6 +7,10 @@
 3. `node --run build`
 4. Check the generated files in `dist`
 
+## Comparison with tsup
+
+`node --run build:tsup` uses `tsup` instead of `tsdown`.
+
 ## Expected behavior
 
 Only `index.d.ts` and `index.js` exist

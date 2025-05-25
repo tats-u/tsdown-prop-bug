@@ -2,6 +2,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsdown",
+    "build:tsup": "tsup",
     "fix": "biome check --fix",
     "check": "biome check"
   },
@@ -10,6 +11,7 @@
   "devDependencies": {
     "@biomejs/biome": "2.0.0-beta.5",
     "tsdown": "^0.12.3",
+    "tsup": "^8.5.0",
     "typescript": "^5.8.3"
   }
 }
