@@ -6,5 +6,5 @@ export default defineConfig({
   // splitting: false,
   dts: true,
   target: "es2021",
-  unbundle: true,
+  // unbundle: true,
 });
